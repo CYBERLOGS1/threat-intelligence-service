@@ -1,0 +1,13 @@
+{
+  "threshold_pps": 150,
+  "burst_threshold": 300,
+  "burst_window": 0.2,
+  "eval_interval": 1.0,
+  "network_profile": "Custom",
+  "whitelist": [
+    "127.0.0.1",
+    "::1"
+  ],
+  "log_file": "net_guard_blocked.json",
+  "dashboard_refresh": 0.5
+}
