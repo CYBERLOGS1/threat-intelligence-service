@@ -1,5 +1,11 @@
 # Threat Intel Service
 
+A personal threat intelligence pipeline: pulls free IOC feeds, stores them
+in SQLite, and lets you (or your other tools — `net_guard.py`, `IDS_GUARD.py`,
+`Ad_Blocker.py`) check IPs/domains/URLs/hashes against them. Includes a live
+Rich terminal dashboard and a small local HTTP API.
+
+
 ## STREAMLIT DASHBOARD
 <img width="1364" height="726" alt="Screenshot 2026-07-06 124718" src="https://github.com/user-attachments/assets/26fcb4b2-336f-459e-9a68-ab4b9cb75a62" />
 <img width="1362" height="728" alt="Screenshot 2026-07-06 124704" src="https://github.com/user-attachments/assets/0c1eaa10-4466-44eb-8288-409459e5a90a" />
@@ -10,10 +16,6 @@
 
 
 
-A personal threat intelligence pipeline: pulls free IOC feeds, stores them
-in SQLite, and lets you (or your other tools — `net_guard.py`, `IDS_GUARD.py`,
-`Ad_Blocker.py`) check IPs/domains/URLs/hashes against them. Includes a live
-Rich terminal dashboard and a small local HTTP API.
 
 ## Setup
 
